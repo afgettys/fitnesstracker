@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const logger = require("morgan");
+
 
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
 const PORT = process.env.PORT || 8080
